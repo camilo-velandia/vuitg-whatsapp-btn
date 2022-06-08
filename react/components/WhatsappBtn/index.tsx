@@ -31,7 +31,7 @@ const WhatsappBtn = ({
   )
 }
 
-WhatsappBtn.PropTypes = {
+WhatsappBtn.propTypes = {
   logo: PropTypes.string.isRequired,
   phone: PropTypes.string.isRequired,
   message: PropTypes.string,
